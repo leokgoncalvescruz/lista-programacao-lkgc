@@ -9,7 +9,7 @@ public class Atividade20 {
         if (idade < 18){
             System.out.println("Você não pode dirigir.");
             return;
-        }else{
+        }else {
             System.out.println("Você tem CNH ?");
             temCNH = leia.nextBoolean();
         }if(temCNH = true){
